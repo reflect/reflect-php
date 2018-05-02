@@ -1,0 +1,38 @@
+{
+    "name": "reflect-io/reflect-php",
+    "description": "Reflect API client library for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reflect Engineering",
+            "email": "nerds@reflect.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Reflect\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reflect\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ramsey/uuid": "^3.7",
+        "web-token/jwt-core": "^1.1",
+        "web-token/jwt-encryption": "^1.1",
+        "web-token/jwt-key-mgmt": "^1.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.9.2",
+        "phpstan/phpstan-phpunit": "^0.9.4",
+        "phpunit/phpunit": "^7.1",
+        "web-token/jwt-checker": "^1.1"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
